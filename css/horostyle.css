@@ -1,0 +1,108 @@
+body {
+    margin: 30px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+    color: #1d0339;
+    line-height: 1.6;
+    
+
+    background: #a3aff5;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:#a3aff5;
+    box-shadow: 0 5px 10px #0000ff;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Theme */
+
+.theme {
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+    transition: 0.5s;
+}
+
+.theme a {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.theme:hover {
+    transform: scale(1.2);
+}
+
+/* Navigation */
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #0000ff;
+    display: block;
+    transition: color 0.2s linear;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #fcff4f;
+}
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #a3aff5;
+    display: none;
+}
+
+nav ul li ul li {
+    left: 0;
+    width: 100%;
+    border: 1px solid #0000ff;    
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+nav ul li a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+

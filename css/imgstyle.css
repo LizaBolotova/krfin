@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 40px;
+    color: #1d0339;
+    line-height: 1.6;
+    
+
+    background: #a3aff5;
+}
+
+div {
+    display: inline;
+    text-align: center;
+}
+
+div>img {
+    width: 600px;
+    height: 400px;
+}
+
+figcaption {
+    text-align: center;
+}

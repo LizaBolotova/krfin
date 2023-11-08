@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="theme"><a href="index.html">Horoscope</a></div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="about.html">Информация</a></li>
+                        <li><a href="signs.html">Знаки зодиака &bigtriangledown;</a>
+                            <ul>
+                                <li><a href="signs.html#Овен">Овен</a></li>
+                                <li><a href="signs.html#Телец">Телец</a></li>
+                                <li><a href="signs.html#Близнецы">Близнецы</a></li>
+                                <li><a href="signs.html#Рак">Рак</a></li>
+                                <li><a href="signs.html#Лев">Лев</a></li>
+                                <li><a href="signs.html#Дева">Дева</a></li>
+                                <li><a href="signs.html#Весы">Весы</a></li>
+                                <li><a href="signs.html#Скоприон">Скорпион</a></li>
+                                <li><a href="signs.html#Стрелец">Стрелец</a></li>
+                                <li><a href="signs.html#Козерог">Козерог</a></li>
+                                <li><a href="signs.html#Водолей">Водолей</a></li>
+                                <li><a href="signs.html#Рыбы">Рыбы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="horoscope.html">Гороскоп &bigtriangledown;</a>
+                            <ul>
+                                <li><a href="horoscope.html#Общий">Общий</a></li>
+                                <li><a href="horoscope.html#Овен">Овен</a></li>
+                                <li><a href="horoscope.html#Телец">Телец</a></li>
+                                <li><a href="horoscope.html#Близнецы">Близнецы</a></li>
+                                <li><a href="horoscope.html#Рак">Рак</a></li>
+                                <li><a href="horoscope.html#Лев">Лев</a></li>
+                                <li><a href="horoscope.html#Дева">Дева</a></li>
+                                <li><a href="horoscope.html#Весы">Весы</a></li>
+                                <li><a href="horoscope.html#Скоприон">Скорпион</a></li>
+                                <li><a href="horoscope.html#Стрелец">Стрелец</a></li>
+                                <li><a href="horoscope.html#Козерог">Козерог</a></li>
+                                <li><a href="horoscope.html#Водолей">Водолей</a></li>
+                                <li><a href="horoscope.html#Рыбы">Рыбы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="price.html">Прайс</a></li>
+                        <li><a class="active" href="form.html">Заказ</a></li>  
+                        <li><a href="Homework.html" target="_blank"><img src="images\теле.jpg" alt="Tele" width="50px" height="50px"></a></li>                                   
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1>Форма</h1>
+    <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <p>
+            <label for="name">Имя пользователя:</label>
+            <input type="text" name="name" placeholder="Введите имя" id="name" required>
+        </p>
+        <p>
+            <label for="surname">Фамилия пользователя:</label>
+            <input type="text" name="surname" placeholder="Введите фамилию" id="surname" required>
+        </p>
+        <p>
+            <label for="pass">Пароль:</label>
+            <input type="password" name="password" placeholder="Введите пароль" id="pass">
+        </p>
+        <p>
+            <label for="number">Номер телефона пользователя:</label>
+            <input type="tel" name="telefon" placeholder="Номер телефона" id="number" required>
+        </p> 
+        <p>
+            <label for="em">Email пользователя:</label>
+            <input type="email" name="email" placeholder="email через @" id="em" required>
+        </p>
+        <p>
+            <label for="dat">Дата:</label>
+            <input type="date" name="data" id="dat">
+        </p>
+        <p>
+            <label for="age">Возраст:</label>
+            <input type="number" name="age" placeholder="Число полных лет" id="age">
+        </p>
+        <p>
+            <label> Выберите услугу:
+                <br><input type="radio" name="offer"> Гороскоп на месяц
+                <br><input type="radio" name="offer"> Описание знака зодиака
+            </label>
+        </p>
+        <p>
+            <label> Выберите знак(и):
+                <br><input type="checkbox"> Овен
+                <br><input type="checkbox"> Телец
+                <br><input type="checkbox"> Близнецы
+                <br><input type="checkbox"> Рак
+                <br><input type="checkbox"> Лев
+                <br><input type="checkbox"> Дева
+                <br><input type="checkbox"> Весы
+                <br><input type="checkbox"> Скорпион
+                <br><input type="checkbox"> Стрелец
+                <br><input type="checkbox"> Козерог
+                <br><input type="checkbox"> Водолей
+                <br><input type="checkbox"> Рыбы
+            </label>
+        </p>
+        <p>
+            <label for="hid">Hidden:</label>
+            <input type="hidden" id="hid">
+        </p>
+        <p>
+            <input type="reset" name="reset" value="Обновить">
+            <input type="submit" name="submit" value="Отправить"></p>
+    </form>
+</body>
+</html>
